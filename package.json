@@ -1,0 +1,24 @@
+{
+  "name": "transition",
+  "version": "0.0.0",
+  "description": "Transition Festival Theme",
+  "license": "",
+  "repository":{
+      "type" : "git",
+      "url"  : ""
+    },
+  "dependencies": {
+    "gulp": "*",
+  	"gulp-autoprefixer": "*",
+    "gulp-ruby-sass": "*",
+    "gulp-util": "*",
+    "gulp-concat": "*",
+    "browser-sync": "*"
+  },
+  "devDependencies": {
+    "del": "*"
+  },
+  "jshintConfig": {
+    "node": true
+  }
+}

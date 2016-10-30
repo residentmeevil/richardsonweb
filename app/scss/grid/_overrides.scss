@@ -1,0 +1,28 @@
+.container--header{
+  width: 100%;
+}
+
+.screen-reader{
+  clip: rect(1px, 1px, 1px, 1px);
+position: absolute !important;
+height: 1px;
+width: 1px;
+overflow: hidden;
+word-wrap: normal !important;
+}
+
+.container-fluid{
+  max-width: 1170px;
+}
+
+.hide-desktop{
+  @media (min-width: $nine-eight-five){
+    display: none;
+  }
+}
+
+.margin-top-mobile{
+  @media (max-width: $seven-six-seven){
+    margin-top: 50px;
+  }
+}

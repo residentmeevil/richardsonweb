@@ -1,0 +1,16 @@
+//Skip links
+
+.skip-link {
+ position: absolute;
+ left: -999em;
+ width: 990em;
+}
+
+a.skip-link:active,  a.skip-link:focus {
+  left: 0;
+  top: 0;
+  padding: 15px;
+  width: auto;
+  z-index: 1;
+  text-decoration: none;
+}

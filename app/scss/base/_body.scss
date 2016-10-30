@@ -1,0 +1,14 @@
+html{
+	  font-size: 62.5%;
+		height: 100%;
+}
+
+body{
+  @include font-size(16);
+
+	height: 100%;
+}
+
+.none{
+	display: none;
+}
