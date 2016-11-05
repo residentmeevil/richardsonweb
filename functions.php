@@ -138,3 +138,8 @@ require get_template_directory() . '/inc/customizer.php';
  * Load Jetpack compatibility file.
  */
 require get_template_directory() . '/inc/jetpack.php';
+
+//Additional functionality and includes
+
+require_once('inc/components/doctype.php');
+require_once('inc/components/header-front-page.php');
