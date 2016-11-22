@@ -1,0 +1,35 @@
+.module{
+  padding: 60px 0;
+
+  @media (min-width: $four-thirty){
+    padding: 120px 0;
+  }
+}
+
+.module--background{
+  background-position: center center;
+  background-size: cover;
+  background-blend-mode: multiply;
+  color: $white;
+}
+
+.module--block{
+  color: $white;
+}
+
+.module--center{
+  text-align: center;
+}
+
+
+/* About Me */
+
+.about-me__image{
+  border-radius: 50%;
+
+  @media (max-width: $seven-six-seven){
+    max-width: 230px;
+    margin: 0px auto;
+    display: block;
+  }
+}

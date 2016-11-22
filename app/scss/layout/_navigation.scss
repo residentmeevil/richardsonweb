@@ -1,7 +1,27 @@
+.navigation-container{
+  background: black;
+}
+
 .main-navigation{
 
   ul{
     @extend .list-reset;
 
+    text-align: left;
+
+    li{
+      display: inline-block;
+    }
+
+    a{
+      display: inline-block;
+      padding: 15px;
+      color: $white;
+
+      &:hover, &:focus{
+        text-decoration: none;
+        
+      }
+    }
   }
 }

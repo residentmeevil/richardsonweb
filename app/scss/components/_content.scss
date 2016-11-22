@@ -1,0 +1,26 @@
+.content-area{
+
+  h2{
+    @include font-size(22);
+    text-transform: uppercase;
+
+
+    @media (min-width: $four-thirty){
+      @include font-size(28);
+    }
+
+
+  }
+
+  p{
+    @include font-size(16);
+
+    line-height: 30px;
+    margin: 0;
+    margin-bottom: 0.83em;
+
+    @media (min-width: $four-thirty){
+      @include font-size(20);
+    }
+  }
+}

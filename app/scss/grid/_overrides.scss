@@ -4,15 +4,21 @@
 
 .screen-reader{
   clip: rect(1px, 1px, 1px, 1px);
-position: absolute !important;
-height: 1px;
-width: 1px;
-overflow: hidden;
-word-wrap: normal !important;
+  position: absolute !important;
+  height: 1px;
+  width: 1px;
+  overflow: hidden;
+  word-wrap: normal !important;
 }
 
 .container-fluid{
   max-width: 1170px;
+
+  @media (min-width: $four-thirty){
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+
 }
 
 .hide-desktop{
@@ -23,6 +29,30 @@ word-wrap: normal !important;
 
 .margin-top-mobile{
   @media (max-width: $seven-six-seven){
-    margin-top: 50px;
+    margin-top: 20px;
+  }
+}
+
+.flex--center-desktop{
+
+  @media (min-width: $seven-six-seven){
+    display: flex;
+    align-items: center;
+  }
+}
+
+.align-right{
+  text-align: center;
+
+  @media (min-width: $seven-six-seven){
+    text-align: right;
+  }
+}
+
+.align-left{
+  text-align: center;
+
+  @media (min-width: $seven-six-seven){
+    text-align: left;
   }
 }

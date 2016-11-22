@@ -1,0 +1,44 @@
+.site-header{
+  background-image: url(img/japan-bw.jpg);
+  background-position: center center;
+    background-size: cover;
+    background-blend-mode: multiply;
+    color: #ffffff;
+
+    .site-title{
+      @include font-size(40);
+
+      @media (min-width: $three-five-five){
+        @include font-size(50);
+      }
+
+      margin: 0;
+      line-height: 40px;
+      text-transform: uppercase;
+      font-weight: 900;
+      letter-spacing: -2px;
+      margin-left: -5px;
+      padding-top: 30px;
+
+      a{
+        color: $white;
+
+        &:hover, &:focus{
+          text-decoration: none;
+        }
+      }
+    }
+
+    .site-description{
+      padding-bottom: 30px;
+      margin-bottom: 0;
+    }
+
+    .site-branding{
+      padding: 0 15px;
+
+      @media (min-width: $four-thirty){
+        padding: 0 30px;
+      }
+    }
+}

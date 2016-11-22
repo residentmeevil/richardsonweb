@@ -32,7 +32,7 @@ var gulp 		           = require('gulp'),
   gulp.task('browser-sync', function() {
   // Static server
   browserSync.init({
-       proxy: "http://localhost/transition/"
+       proxy: "http://localhost/richardsonweb/"
   });
 
   gulp.watch('app/scss/**/*.scss', ['styles']);

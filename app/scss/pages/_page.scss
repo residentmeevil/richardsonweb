@@ -1,0 +1,11 @@
+.page-content{
+  padding: 60px 0;
+
+  @media (min-width: $four-thirty){
+    padding: 120px 0;
+  }
+
+  h2{
+    margin-top: 0;
+  }
+}

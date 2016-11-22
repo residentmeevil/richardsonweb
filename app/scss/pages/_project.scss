@@ -1,0 +1,38 @@
+.project-container{
+
+margin-top: 60px;
+
+  @media (max-width: $seven-six-seven){
+    &:nth-child(2n+3){
+      clear: left;
+    }
+  }
+
+  @media (min-width: $seven-six-seven){
+    &:nth-child(4n+5){
+      clear: left;
+    }
+
+    a{
+      color: $footer;
+    }
+  }
+
+  .project-inner{
+    box-shadow: -5px -5px 0px #d8f0fe;
+    padding: 15px;
+
+  }
+
+  .project-thumb-container{
+    min-height: 200px;
+    display: flex;
+    align-items: center;
+  }
+
+  .project-thumb{
+    max-width: 200px;
+
+
+  }
+}
